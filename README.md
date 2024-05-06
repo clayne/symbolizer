@@ -3,6 +3,10 @@
 
 ![Symbolizer](pics/grep.gif)
 
+## ⚠️ Superseded by `symbolizer-rs` ⚠️
+
+[symbolizer-rs](https://github.com/0vercl0k/symbolizer-rs) is a replacement that is faster, cross-platform, as featureful and doesn't depend on any Microsoft libraries. 
+
 ## Overview
 
 This is utility that symbolizes an execution trace via the [dbgeng](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-engine-api-overview) APIs and a crash-dump. The dbgeng APIs are used to load the crash-dump and symbolizes RIP values by querying the available symbols.
